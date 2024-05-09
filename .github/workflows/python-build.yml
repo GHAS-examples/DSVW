@@ -26,9 +26,6 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
       
-    - name: Run dsvw.py
-      run: python dsvw.py
-
     - name: 'Endor Labs Scan Push to main'
       uses: endorlabs/github-action@v1.1.2
       with:
